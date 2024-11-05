@@ -108,7 +108,7 @@ class _AccountPageState extends State<AccountPage> {
                         const Column(
                           children: [
                             Text(
-                              'Alfin Marendra',
+                              'Dimas Santoso',
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
