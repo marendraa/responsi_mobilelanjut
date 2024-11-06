@@ -82,7 +82,8 @@ class _ProfilePageState extends State<ProfilePage> {
                     // Navigate ke halaman login dan hapus semua rute sebelumnya
                     Navigator.pushAndRemoveUntil(
                       context,
-                      MaterialPageRoute(builder: (context) => const LoginPage()),
+                      MaterialPageRoute(
+                          builder: (context) => const LoginPage()),
                       (route) => false,
                     );
                   },
@@ -141,11 +142,13 @@ class _ProfilePageState extends State<ProfilePage> {
                             ),
                             const SizedBox(height: 12),
                             const Column(
-                              crossAxisAlignment: CrossAxisAlignment.center,  // Menambahkan ini
+                              crossAxisAlignment:
+                                  CrossAxisAlignment.center, // Menambahkan ini
                               children: [
                                 Text(
-                                  'Alfin Marendra',
-                                  textAlign: TextAlign.center,  // Menambahkan ini
+                                  'Dimas Santoso',
+                                  textAlign:
+                                      TextAlign.center, // Menambahkan ini
                                   style: TextStyle(
                                     fontSize: 16,
                                     fontWeight: FontWeight.bold,
@@ -154,7 +157,8 @@ class _ProfilePageState extends State<ProfilePage> {
                                 SizedBox(height: 4),
                                 Text(
                                   'University of Technology Yogyakarta',
-                                  textAlign: TextAlign.center,  // Menambahkan ini
+                                  textAlign:
+                                      TextAlign.center, // Menambahkan ini
                                   style: TextStyle(
                                     fontSize: 14,
                                     color: Colors.grey,
@@ -169,7 +173,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   ),
                 ),
                 const SizedBox(height: 24),
-                
+
                 // Form Fields
                 const Text(
                   'Email',
@@ -275,7 +279,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     ),
                     child: const Text(
                       'Ubah Profile',
-                        style: TextStyle(
+                      style: TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.w500,
                         color: Colors.white,
