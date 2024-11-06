@@ -17,11 +17,11 @@ samples, guidance on mobile development, and a full API reference.
 
 ![hasil halaman login](capture/login.png)
 ![hasil halaman daftar](capture/daftar.png)
-![Deskripsi Gambar](capture/halaman%20akun.png)
+![hasil halaman akun](capture/halaman%20akun.png)
 ![hasil halaman beranda](capture/bernada.png)
-![Deskripsi Gambar](capture/kelola%20akun.png)
-![Deskripsi Gambar](capture/splash%20screen.png)
-![Deskripsi Gambar](capture/lupa%20password.png)
+![hasil halaman kelola akun](capture/kelola%20akun.png)
+![hasil splash sceen](capture/splash%20screen.png)
+![hasil halaman lupa password](capture/lupa%20password.png)
 
 
 
